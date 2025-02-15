@@ -5,46 +5,45 @@ body {
   place-items: center;
   height: 100vh;
   background: #ffffff;
-  margin-top: -2cm; /* 追加: タイトルを2cm上に移動 */
+  margin: 0; /* 修正: マージンをリセット */
 }
 
 h1 {
-  margin-bottom: 2rem; /* 追加: タイトルとボックスの間に余白を追加 */
+  margin-bottom: 2rem; /* タイトルとボックスの間に余白を追加 */
 }
 
 div {
   background: #ffffff;
-  padding: 2rem; /* 変更: パディングを少し小さくする */
+  padding: 2rem; /* パディングを少し小さくする */
   border-radius: 1rem;
-  width: 22rem; /* 変更: 幅を少し大きくする */
+  width: 22rem; /* 幅を少し大きくする */
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.5);
-  margin-top: -10cm; /* 変更: ボックスを2cm上に移動 */
 }
 
 input[type="color"] {
-  width: 90px; /* 変更: カラーピッカーの幅を90pxに設定 */
-  height: 50px; /* 変更: カラーピッカーの高さを50pxに設定 */
-  border: none; /* 追加: ボーダーを削除 */
-  cursor: pointer; /* 追加: カーソルをポインターに変更 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* 変更: カラーピッカーの周りに濃い影を追加 */
+  width: 90px; /* カラーピッカーの幅を90pxに設定 */
+  height: 50px; /* カラーピッカーの高さを50pxに設定 */
+  border: none; /* ボーダーを削除 */
+  cursor: pointer; /* カーソルをポインターに変更 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* カラーピッカーの周りに濃い影を追加 */
 }
 
 #searchText {
-  font-size: 1.2rem; /* 変更: カラーコードを検索の文字を小さくする */
-  font-weight: bold; /* 追加: カラーコードを検索の文字を太字にする */
-  margin-bottom: 0.5rem; /* 変更: 下向き矢印との間に余白を追加 */
+  font-size: 1.2rem; /* カラーコードを検索の文字を小さくする */
+  font-weight: bold; /* カラーコードを検索の文字を太字にする */
+  margin-bottom: 0.5rem; /* 下向き矢印との間に余白を追加 */
 }
 
 #colorText {
-  font-size: 1.3rem; /* 変更: カラーコードの文字を少し大きくする */
-  font-weight: bold; /* 追加: カラーコードの文字を太字にする */
-  margin-top: 1rem; /* 追加: カラーコードの表示に余白を追加 */
+  font-size: 1.3rem; /* カラーコードの文字を少し大きくする */
+  font-weight: bold; /* カラーコードの文字を太字にする */
+  margin-top: 1rem; /* カラーコードの表示に余白を追加 */
 }
 
 .arrow {
-  font-size: 1.5rem; /* 追加: 矢印の文字サイズを調整 */
-  font-weight: bold; /* 追加: 矢印を太字にする */
-  margin: 0; /* 追加: 矢印の余白を調整 */
+  font-size: 1.5rem; /* 矢印の文字サイズを調整 */
+  font-weight: bold; /* 矢印を太字にする */
+  margin: 0; /* 矢印の余白を調整 */
   transform: translateY(-5px); /* 追加: 矢印の初期位置を少し上に調整 */
   animation: moveDown 2s infinite; /* 追加: 矢印を下に流れるアニメーションを追加 */
 }
