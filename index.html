@@ -9,11 +9,20 @@
   </head>
   <body>
     <h1 id="title">カラーピッカー</h1>
-    <div>
+    <div id="menu">
+      <span id="menuButton">&#9776;</span>
+      <div id="menuContent">
+        <a href="#" id="home">ホーム</a>
+        <a href="#" id="colorToCode">色からコード</a>
+        <a href="#" id="codeToColor">コードから色</a>
+      </div>
+    </div>
+    <div id="colorPickerSection">
       <p id="searchText">カラーコードを検索</p>
       <p class="arrow">↓</p>
       <input id="colorPicker" type="color" />
       <p id="colorText">カラーコード：</p>
+      <input id="colorInput" type="text" placeholder="#000000" />
     </div>
   </body>
 </html>
